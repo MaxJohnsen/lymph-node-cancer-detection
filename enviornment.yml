@@ -1,0 +1,16 @@
+name: cancer-detection
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.6.6
+    - jupyter
+    - opencv3
+    - numpy
+    - matplotlib
+    - pandas
+    - pyqt
+    - pip:
+    - tensorflow-gpu 
+
+
